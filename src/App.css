@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.App {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 24px;
+  color: #4b79a1;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tabs .tab-active {
+  background-color: #4b79a1;
+  color: #fff;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.file-input,
+.text-input {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-label {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.radio-input {
+  margin-right: 5px;
+}
+
+.process-button {
+  background: #4b79a1;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.process-button:hover {
+  background: #375a7f;
+}
+
+.output-group {
+  margin-top: 20px;
+}
+
+.output-title {
+  font-size: 18px;
+  color: #4b79a1;
+  margin-bottom: 10px;
+}
+
+.output-area {
+  width: 95%;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
